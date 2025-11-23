@@ -1,4 +1,14 @@
+using LiftControlSystem.Domain.Enums;
+using LiftControlSystem.Domain.Logic.Managers;
+using LiftControlSystem.Controllers;
+using Scalar.AspNetCore;
+using LiftControlSystem.Shared.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Register services
+builder.Services.AddSingleton<LiftController>();
+builder.Services.AddSingleton<SystemModeManager>();
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
@@ -13,29 +23,25 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.MapScalarApiReference(o => o.WithTheme(ScalarTheme.Alternate));
 
-var summaries = new[]
+app.MapPost("/assignlift/{requestedFloor}", async (int requestedFloor, LiftController controller) =>
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+    var liftResult = await controller.AssignLiftAsync(requestedFloor);
+    return liftResult.Success && liftResult.Value is not null
+        ? Results.Ok(liftResult.Value.ToDto())
+        : Results.NotFound(liftResult.Warnings.Union(liftResult.Errors));
+}).WithName("AssignLiftAsync");
 
-app.MapGet("/weatherforecast", () =>
+app.MapPost("/mode/{mode}", (string mode, SystemModeManager modeManager) =>
 {
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+    if (!Enum.TryParse<LiftStrategies>(mode, ignoreCase: true, out var liftStrategy))
+        return Results.BadRequest($"Mode {mode} is not supported.");
+
+    if (modeManager.TrySetMode(liftStrategy))
+        return Results.Ok($"Mode changed to {mode}");
+
+    return Results.BadRequest("Invalid mode");
+}).WithName("AssignLiftMode");
 
 app.Run();
-
-internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
