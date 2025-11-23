@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Practice\\lift-control-system\\LiftControlSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70C8D15E-433D-4A4F-9F73-1BDB8359176F}|LiftControlSystem\\LiftControlSystem.csproj|c:\\practice\\lift-control-system\\liftcontrolsystem\\liftcontrolsystem\\shared\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70C8D15E-433D-4A4F-9F73-1BDB8359176F}|LiftControlSystem\\LiftControlSystem.csproj|solutionrelative:liftcontrolsystem\\shared\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1DFC7A8-A8E9-4E6C-9028-4C4FFE7DC460}|LiftControlSystem.Tests\\LiftControlSystem.Tests.csproj|c:\\practice\\lift-control-system\\liftcontrolsystem\\liftcontrolsystem.tests\\lifttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DFC7A8-A8E9-4E6C-9028-4C4FFE7DC460}|LiftControlSystem.Tests\\LiftControlSystem.Tests.csproj|solutionrelative:liftcontrolsystem.tests\\lifttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DFC7A8-A8E9-4E6C-9028-4C4FFE7DC460}|LiftControlSystem.Tests\\LiftControlSystem.Tests.csproj|c:\\practice\\lift-control-system\\liftcontrolsystem\\liftcontrolsystem.tests\\closestliftstrategytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DFC7A8-A8E9-4E6C-9028-4C4FFE7DC460}|LiftControlSystem.Tests\\LiftControlSystem.Tests.csproj|solutionrelative:liftcontrolsystem.tests\\closestliftstrategytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DFC7A8-A8E9-4E6C-9028-4C4FFE7DC460}|LiftControlSystem.Tests\\LiftControlSystem.Tests.csproj|c:\\practice\\lift-control-system\\liftcontrolsystem\\liftcontrolsystem.tests\\energysavingstrategytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DFC7A8-A8E9-4E6C-9028-4C4FFE7DC460}|LiftControlSystem.Tests\\LiftControlSystem.Tests.csproj|solutionrelative:liftcontrolsystem.tests\\energysavingstrategytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DFC7A8-A8E9-4E6C-9028-4C4FFE7DC460}|LiftControlSystem.Tests\\LiftControlSystem.Tests.csproj|c:\\practice\\lift-control-system\\liftcontrolsystem\\liftcontrolsystem.tests\\liftcontrolsystem.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1DFC7A8-A8E9-4E6C-9028-4C4FFE7DC460}|LiftControlSystem.Tests\\LiftControlSystem.Tests.csproj|solutionrelative:liftcontrolsystem.tests\\liftcontrolsystem.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70C8D15E-433D-4A4F-9F73-1BDB8359176F}|LiftControlSystem\\LiftControlSystem.csproj|c:\\practice\\lift-control-system\\liftcontrolsystem\\liftcontrolsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70C8D15E-433D-4A4F-9F73-1BDB8359176F}|LiftControlSystem\\LiftControlSystem.csproj|solutionrelative:liftcontrolsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C8D15E-433D-4A4F-9F73-1BDB8359176F}|LiftControlSystem\\LiftControlSystem.csproj|c:\\practice\\lift-control-system\\liftcontrolsystem\\liftcontrolsystem\\shared\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C8D15E-433D-4A4F-9F73-1BDB8359176F}|LiftControlSystem\\LiftControlSystem.csproj|solutionrelative:liftcontrolsystem\\shared\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70C8D15E-433D-4A4F-9F73-1BDB8359176F}|LiftControlSystem\\LiftControlSystem.csproj|c:\\practice\\lift-control-system\\liftcontrolsystem\\liftcontrolsystem\\shared\\extensions\\liftextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,8 +90,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LiftTests.cs",
+              "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem.Tests\\LiftTests.cs",
+              "RelativeDocumentMoniker": "LiftControlSystem.Tests\\LiftTests.cs",
+              "ToolTip": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem.Tests\\LiftTests.cs",
+              "RelativeToolTip": "LiftControlSystem.Tests\\LiftTests.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T22:10:34.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnergySavingStrategyTests.cs",
+              "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem.Tests\\EnergySavingStrategyTests.cs",
+              "RelativeDocumentMoniker": "LiftControlSystem.Tests\\EnergySavingStrategyTests.cs",
+              "ToolTip": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem.Tests\\EnergySavingStrategyTests.cs",
+              "RelativeToolTip": "LiftControlSystem.Tests\\EnergySavingStrategyTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T22:09:51.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LiftControlSystem.Tests",
+              "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem.Tests\\LiftControlSystem.Tests.csproj",
+              "RelativeDocumentMoniker": "LiftControlSystem.Tests\\LiftControlSystem.Tests.csproj",
+              "ToolTip": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem.Tests\\LiftControlSystem.Tests.csproj",
+              "RelativeToolTip": "LiftControlSystem.Tests\\LiftControlSystem.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-23T22:08:15.965Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -90,7 +145,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "ClosestLiftStrategyTests.cs",
+              "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem.Tests\\ClosestLiftStrategyTests.cs",
+              "RelativeDocumentMoniker": "LiftControlSystem.Tests\\ClosestLiftStrategyTests.cs",
+              "ToolTip": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem.Tests\\ClosestLiftStrategyTests.cs",
+              "RelativeToolTip": "LiftControlSystem.Tests\\ClosestLiftStrategyTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T22:08:20.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "LiftExtensions.cs",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\Shared\\Extensions\\LiftExtensions.cs",
               "RelativeDocumentMoniker": "LiftControlSystem\\Shared\\Extensions\\LiftExtensions.cs",
@@ -98,12 +166,11 @@
               "RelativeToolTip": "LiftControlSystem\\Shared\\Extensions\\LiftExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:51:03.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T21:51:03.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "LiftDto.cs",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\DTOs\\LiftDto.cs",
               "RelativeDocumentMoniker": "LiftControlSystem\\DTOs\\LiftDto.cs",
@@ -111,12 +178,11 @@
               "RelativeToolTip": "LiftControlSystem\\DTOs\\LiftDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:48:32.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T21:48:32.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "ResultData.cs",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\Shared\\ResultData.cs",
               "RelativeDocumentMoniker": "LiftControlSystem\\Shared\\ResultData.cs",
@@ -124,12 +190,11 @@
               "RelativeToolTip": "LiftControlSystem\\Shared\\ResultData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:18:42.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T21:18:42.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\Shared\\Result.cs",
               "RelativeDocumentMoniker": "LiftControlSystem\\Shared\\Result.cs",
@@ -137,12 +202,11 @@
               "RelativeToolTip": "LiftControlSystem\\Shared\\Result.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:14:15.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T21:14:15.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "SystemModeManager.cs",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\Domain\\Logic\\Managers\\SystemModeManager.cs",
               "RelativeDocumentMoniker": "LiftControlSystem\\Domain\\Logic\\Managers\\SystemModeManager.cs",
@@ -150,12 +214,11 @@
               "RelativeToolTip": "LiftControlSystem\\Domain\\Logic\\Managers\\SystemModeManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T20:56:44.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T20:56:44.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Lift.cs",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\Domain\\Models\\Lift.cs",
               "RelativeDocumentMoniker": "LiftControlSystem\\Domain\\Models\\Lift.cs",
@@ -163,12 +226,11 @@
               "RelativeToolTip": "LiftControlSystem\\Domain\\Models\\Lift.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAuwCEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T20:57:00.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T20:57:00.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "LiftController.cs",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\Controllers\\LiftController.cs",
               "RelativeDocumentMoniker": "LiftControlSystem\\Controllers\\LiftController.cs",
@@ -176,25 +238,24 @@
               "RelativeToolTip": "LiftControlSystem\\Controllers\\LiftController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAowBkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:04:04.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T21:04:04.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\Program.cs",
               "RelativeDocumentMoniker": "LiftControlSystem\\Program.cs",
               "ToolTip": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\Program.cs",
               "RelativeToolTip": "LiftControlSystem\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAswB4AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswB8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T20:44:12.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "LiftControlSystem\\Properties\\launchSettings.json",
@@ -202,12 +263,11 @@
               "RelativeToolTip": "LiftControlSystem\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-23T21:43:24.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T21:43:24.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ClosestLiftStrategy.cs",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\Domain\\Logic\\LiftStrategy\\ClosestLiftStrategy.cs",
               "RelativeDocumentMoniker": "LiftControlSystem\\Domain\\Logic\\LiftStrategy\\ClosestLiftStrategy.cs",
@@ -215,12 +275,11 @@
               "RelativeToolTip": "LiftControlSystem\\Domain\\Logic\\LiftStrategy\\ClosestLiftStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T20:56:13.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T20:56:13.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "ILiftSelectionStrategy.cs",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\Domain\\Logic\\LiftStrategy\\ILiftSelectionStrategy.cs",
               "RelativeDocumentMoniker": "LiftControlSystem\\Domain\\Logic\\LiftStrategy\\ILiftSelectionStrategy.cs",
@@ -228,12 +287,11 @@
               "RelativeToolTip": "LiftControlSystem\\Domain\\Logic\\LiftStrategy\\ILiftSelectionStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T20:56:35.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T20:56:35.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "EnergySavingStrategy.cs",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\Domain\\Logic\\LiftStrategy\\EnergySavingStrategy.cs",
               "RelativeDocumentMoniker": "LiftControlSystem\\Domain\\Logic\\LiftStrategy\\EnergySavingStrategy.cs",
@@ -241,12 +299,11 @@
               "RelativeToolTip": "LiftControlSystem\\Domain\\Logic\\LiftStrategy\\EnergySavingStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T20:56:24.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T20:56:24.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "LiftStrategies.cs",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\Domain\\Enums\\LiftStrategies.cs",
               "RelativeDocumentMoniker": "LiftControlSystem\\Domain\\Enums\\LiftStrategies.cs",
@@ -254,12 +311,11 @@
               "RelativeToolTip": "LiftControlSystem\\Domain\\Enums\\LiftStrategies.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T20:55:58.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T20:55:58.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "LiftState.cs",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\Domain\\Enums\\LiftState.cs",
               "RelativeDocumentMoniker": "LiftControlSystem\\Domain\\Enums\\LiftState.cs",
@@ -267,13 +323,12 @@
               "RelativeToolTip": "LiftControlSystem\\Domain\\Enums\\LiftState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T20:55:46.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T20:55:46.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LiftControlSystem",
+              "DocumentIndex": 18,
+              "Title": "LiftControlSystem.csproj",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\LiftControlSystem.csproj",
               "RelativeDocumentMoniker": "LiftControlSystem\\LiftControlSystem.csproj",
               "ToolTip": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\LiftControlSystem.csproj",
@@ -285,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "LiftControlSystem.http",
               "DocumentMoniker": "C:\\Practice\\lift-control-system\\LiftControlSystem\\LiftControlSystem\\LiftControlSystem.http",
               "RelativeDocumentMoniker": "LiftControlSystem\\LiftControlSystem.http",
